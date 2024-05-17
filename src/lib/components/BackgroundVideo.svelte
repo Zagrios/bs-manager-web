@@ -1,12 +1,12 @@
 <script lang="ts">
     import backgroudVideoAvc from "$lib/videos/background_video.avc.mp4"
-    import thumbnail from "$lib/images/video-thumnail.png"
+    import thumbnail from "$lib/images/video-thumnail.jpg"
     import { onMount } from "svelte";
 
     let video: HTMLVideoElement;
 
     onMount(() => {
-        video.playbackRate = 0.75;
+        video.playbackRate = 0.70;
     });
 </script>
 
