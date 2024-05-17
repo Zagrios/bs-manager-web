@@ -32,5 +32,9 @@
 	"type": "module",
 	"volta": {
 		"node": "20.13.1"
+	},
+	"dependencies": {
+		"@tsparticles/slim": "^3.4.0",
+		"@tsparticles/svelte": "^3.0.0"
 	}
 }
