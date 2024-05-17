@@ -37,10 +37,10 @@
 	<BackgroundVideo class="size-full absolute top-0 left-0 -z-10"/>
 	<Particles class="absolute size-full -z-10" />
 	<div class="size-full flex justify-center items-center flex-col z-30 gap-5 px-3 [&>*]:max-w-full">
-		<div bind:this={iconContainer} on:mousemove={magnetEffect} on:mouseleave={magnetEffect} class="size-96 max-h-full max-w-full" role="form">
+		<div bind:this={iconContainer} on:mousemove={magnetEffect} on:mouseleave={magnetEffect} class="size-48 sm:size-96 max-h-full max-w-full" role="form">
 			<img bind:this={iconElement} id="bsm-icon" class="size-full shadow-black drop-shadow-md ease-in-out duration-300" src="favicon.svg" alt="BSManager icon"/>
 		</div>
-		<a href="https://github.com/Zagrios/bs-manager/releases/download/v1.4.7/BSManager-Setup-1.4.7.exe" class="bg-[#3b82ff] bg-opacity-30 cursor-pointer backdrop-blur-xl h-20 w-[30rem] rounded-2xl text-white shadow-black shadow-md font-bold text-3xl  flex flex-row justify-evenly items-center mt-5 hover:w-[35rem] transition-all duration-100 ease-in-out">
+		<a href="https://github.com/Zagrios/bs-manager/releases/download/v1.4.7/BSManager-Setup-1.4.7.exe" class="bg-[#3b82ff] bg-opacity-30 cursor-pointer backdrop-blur-xl h-20 w-[30rem] rounded-2xl text-white shadow-black shadow-md font-bold text-2xl sm:text-3xl  flex flex-row justify-evenly items-center mt-5 hover:w-[35rem] transition-all duration-100 ease-in-out">
 			<img src="{beatRunning}" class="size-11 mt-0.5" alt="gif"/>
 			<span class="text-center">Download BSManager</span>
 			<img src="{beatRunning}" class="size-11 mt-0.5" alt="gif"/>
