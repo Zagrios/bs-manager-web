@@ -6,7 +6,6 @@
 	import patreonIcon from "$lib/images/patreon-icon.svg";
 	import beatRunning from "$lib/images/beat_running.gif";	
 
-	let smallDevice = true;
 	let iconElement: HTMLImageElement;
 	let iconContainer: HTMLDivElement;
 
@@ -62,7 +61,7 @@
 		<p class="text-gray-400 whitespace-break-spaces text-center mt-3 sm:mt-10">Add this site to your favorites and stay tuned! This is work in progress, and for now, it is used only as temporary content.</p>
 	</div>
 
-	<div class="absolute bottom-4 right-4 text-neutral-100 flex justify-center items-center gap-3 *:underline *:underline-offset-2">
+	<div class="absolute bottom-4 right-4 text-neutral-200 flex justify-center items-center gap-3 *:underline *:underline-offset-2">
 		<a href="https://beatsaver.com/maps/16992" target="_blank">See map</a>
 		<a href="beatsaver://16992">Install map</a>
 	</div>
