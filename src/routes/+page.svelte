@@ -45,7 +45,7 @@
 		</a>
 		<h2 class="text-white font-bold text-3xl">Follow us !</h2>
 		<section class="flex flex-row flex-wrap justify-center items-center gap-7 w-[35rem] [&>a]:shadow-black [&>a]:shadow-md [&>a]:shrink-0 [&>a]:transition-transform">
-			<a href="https://discord.gg/uSqbHVpKdV" target="_blank" class="size-16 p-2.5 bg-[#5865F2] rounded-2xl cursor-pointer z-10 hover:-translate-y-1" title="Discord">
+			<a href="https://discord.gg/bsmanager-1049624409276694588" target="_blank" class="size-16 p-2.5 bg-[#5865F2] rounded-2xl cursor-pointer z-10 hover:-translate-y-1" title="Discord">
 				<img class="size-full" src="{discordIcon}" alt="discord icon"/>
 			</a>
 			<a href="https://twitter.com/BSManager_" target="_blank" class="size-16 p-3.5 bg-neutral-900 rounded-2xl cursor-pointer z-10 hover:-translate-y-1" title="Twitter">
